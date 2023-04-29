@@ -24,13 +24,5 @@ jobs:
         with:
           repository: '1221141/blog'
           token: '{{ secrets.PAT }}'
-      - name: Remove all but blog
-        run: rm -rf ./* ./[^.]* !("blog")
-      - name: Commit blog
-        run: |
-          git config --global user.name '1221141'
-          git config --global user.email 'redacted@nope.np'
-          git add blog
-          git commit -m 'test'
-          git push
-        
+      - name: show dir
+        run: ls
