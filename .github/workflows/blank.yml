@@ -23,14 +23,15 @@ jobs:
       - uses: actions/checkout@v3
         with:
           repository: 1221141/blog
-          token: ${{ secrets.PAT }} # `GH_PAT` is a secret that contains your PAT
+          token: ${{ secrets.PAT }}
           path: origin
           
       - name: Checkout
         uses: actions/checkout@v3
         with:
           path: main
-          
+          token: ${{ secrets.PAT }}
+
       - name: remove-all-else
         run: cp -r origin/blog main/blog
         
