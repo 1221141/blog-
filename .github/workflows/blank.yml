@@ -35,6 +35,8 @@ jobs:
       - name: remove-all-else
         run: cp -r origin/blog main/
       - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
       - name: Generate index
         run: |
           cd main
