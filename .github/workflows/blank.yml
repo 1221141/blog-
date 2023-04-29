@@ -26,5 +26,11 @@ jobs:
           token: ${{ secrets.PAT }} # `GH_PAT` is a secret that contains your PAT
       - name: remove-all-else
         run: rm -rf .github && rm -rf .obsidian
-      - name: check
-        run: ls
+      - name: Commit blog
+        run: |
+          git config --global user.name '1221141'
+          git config --global user.email 'redacted@nope.np'
+          git add blog templates bin
+          git commit -m 'pushing blog'
+          git push -f
+        
