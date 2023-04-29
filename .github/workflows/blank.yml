@@ -20,6 +20,14 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Repository Dispatch
-        run: echo 'test'
+      - uses: actions/checkout@v3
+      - name: Remove all but blog
+        run: rm -rf -v !("blog")
+      - name: Commit blog
+        run: |
+          git config --global user.name '1221141'
+          git config --global user.email 'redacted@nope.np'
+          git add blog
+          git commit -m 'test'
+          git push
         
