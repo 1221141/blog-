@@ -1,17 +1,28 @@
 require 'front_matter_parser'
 
 dir_path = "./blog"
+
 unsafe_loader = ->(string) { YAML.load(string) }
-# file_contents = File.read('./blog/2023_04_29_10_04_18_obsidian-file-creation-renamed-with-templater.md')
-# parsed = FrontMatterParser::Parser.new(:md,loader: unsafe_loader).call(file_contents)
+
+Entry = Struct.new(:title, :created, :filename)
+
+entries = []
+
+Dir.entries(dir_path).each do |file_name|
+  next if file_name == '.' || file_name == '..' || file_name == 'assets' # skip current and parent directory links
+
+  file_contents = File.read("#{dir_path}/#{file_name}")
+  parsed = FrontMatterParser::Parser.new(:md, loader: unsafe_loader).call(file_contents)
+  entries.push(Entry.new(parsed.front_matter['Title'], parsed.front_matter['Created'], "#{dir_path}/#{file_name}"))
+end
+
+sorted_entries = entries.sort_by { |entry| entry.filename }.reverse
+
 
 File.open("README.md", "w") do |file|
   file.write("# Index\n\n")
-  Dir.entries(dir_path).each do |file_name|
-    next if file_name == '.' || file_name == '..' || file_name == 'assets' # skip current and parent directory links
-    
-    file_contents = File.read("#{dir_path}/#{file_name}")
-    parsed = FrontMatterParser::Parser.new(:md, loader: unsafe_loader).call(file_contents)
-    file.write"- [#{parsed.front_matter['Created']} - #{parsed.front_matter['Title']}](#{dir_path}/#{file_name})\n"
+
+  sorted_entries.each do |entry|
+  file.write"- [`#{entry.created} - #{entry.title}`](#{entry.filename}))\n"
   end
 end
