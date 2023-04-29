@@ -1,7 +1,7 @@
 ---
 Title: Github Action and Two Repos
 Created: 2023-04-29 16:30:13
-Updated: 2023-04-29 16:55:49
+Updated: 2023-04-29 17:13:41
 ---
 
 # Github Action and Two Repos
@@ -10,6 +10,14 @@ I managed to successfully create a way to have my main blog folder in a private 
 
 
 ## Setup
+
+#### PAT
+
+PAT a.k.a Personal Access Token, create one in your github settings:
+![[Pasted image 20230429171338.png]]
+and set in the repo actions:
+![[Pasted image 20230429171258.png]]
+
 
 #### Private Repo
 
