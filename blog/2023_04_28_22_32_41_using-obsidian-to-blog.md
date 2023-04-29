@@ -12,24 +12,24 @@ Also it seems to be good to have an app to write the test, I wrote a full emacs 
 
 ## Git Sync
 
-In obsidian one can use the https://github.com/denolehov/obsidian-git plugin to sync with git (see docs here: https://publish.obsidian.md/git-doc/01+Start+here)
+In obsidian one can use the <https://github.com/denolehov/obsidian-git> plugin to sync with git (see docs here: <https://publish.obsidian.md/git-doc/01+Start+here>)
 
 #### Windows
 For windows it is required to use the https and the windows credential-manager. I had a previous user signed. 
 
 Steps to fix it:
-	- https://stackoverflow.com/a/47466980 check the windows part
+	- <https://stackoverflow.com/a/47466980> check the windows part
 	- clone the repo in https
 	- when try to push choose manager and tick to always use that.
 	- profit
 
 #### Linux
-I just followed this guide: https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github 
+I just followed this guide: <https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github>
 But basically: https, and the github token.
 
 
 ## Frontmatter
-the https://github.com/platers/obsidian-linter/blob/master/docs/rules.md#yaml-timestamp takes care of the frontmatter data.
+the <https://github.com/platers/obsidian-linter/blob/master/docs/rules.md#yaml-timestamp> takes care of the frontmatter data.
 
 > Using this proved that the file naming is good, having the creation date in the files made me easily add the created frontmatter
 
