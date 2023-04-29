@@ -23,6 +23,6 @@ File.open("README.md", "w") do |file|
   file.write("# Index\n\n")
 
   sorted_entries.each do |entry|
-  file.write"- [`#{entry.created} - #{entry.title}`](#{entry.filename}))\n"
+  file.write"- [`#{entry.created} - #{entry.title}`](#{entry.filename})\n"
   end
 end
