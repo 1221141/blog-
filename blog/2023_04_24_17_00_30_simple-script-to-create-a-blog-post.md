@@ -1,7 +1,7 @@
 ---
-title: Simple script to create a blog post
+Title: Simple script to create a blog post
 Created: 2023-04-24 17:00:30
-Updated: 2023-04-29 10:47:67
+Updated: 2023-04-29 16:54:46
 ---
 # Simple script to create a blog post
 

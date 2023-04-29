@@ -1,7 +1,7 @@
 ---
-title: Using Obsidian to blog
+Title: Using Obsidian to blog
 Created: 2023-04-28 22:32:41
-Updated: 2023-04-29 12:02:95
+Updated: 2023-04-29 16:55:29
 ---
 
 # Using Obsidian to blog

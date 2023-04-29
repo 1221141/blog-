@@ -1,7 +1,7 @@
 ---
 Title: Create blog file with emacs
 Created: 2023-04-25 15:00:39
-Updated: 2023-04-25 15:12:12
+Updated: 2023-04-29 16:55:26
 ---
 
 # Create blog file with emacs

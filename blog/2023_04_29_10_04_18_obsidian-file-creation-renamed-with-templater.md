@@ -1,7 +1,7 @@
 ---
-title: Obsidian file creation renamed with templater
+Title: Obsidian file creation renamed with templater
 Created: 2023-04-29 10:39:00
-Updated: 2023-04-29 10:45:52
+Updated: 2023-04-29 16:55:32
 ---
 
 # Obsidian file creation renamed with templater

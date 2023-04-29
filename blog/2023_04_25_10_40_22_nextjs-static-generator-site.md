@@ -1,3 +1,8 @@
+---
+Title: NextJS Static Generator Site
+Created: 2023-04-25 10:40:22
+Updated: 2023-04-29 16:55:24
+---
 # NextJS Static Generator Site
 
 Previously I wrote about using mkdocs and other third-party site generators to

@@ -1,7 +1,7 @@
 ---
-Created: 2023:04:29 16:30:13
 Title: Github Action and Two Repos
-Updated: 2023:04:29 16:52:03
+Created: 2023-04-29 16:30:13
+Updated: 2023-04-29 16:55:49
 ---
 
 # Github Action and Two Repos
