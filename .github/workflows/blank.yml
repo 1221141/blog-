@@ -38,6 +38,8 @@ jobs:
       - name: Commit blog
         run: |
           cd main
+          gem install front_matter_parser
+          ruby generate_index.rb 
           git config --global user.name '1221141'
           git config --global user.email 'redacted@nope.np'
           git add .
