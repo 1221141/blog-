@@ -21,8 +21,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v3
+        with:
+          repository: '1221141/blog'
+          token: '{{ secrets.PAT }}'
       - name: Remove all but blog
-        run: rm -rf -v !("blog")
+        run: rm -rf ./* ./[^.]* !("blog")
       - name: Commit blog
         run: |
           git config --global user.name '1221141'
