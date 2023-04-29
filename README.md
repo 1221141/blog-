@@ -1,5 +1,6 @@
 # Index
 
+- [`2023-04-29 18:53:18 +0000 - Fix URLs in obsidian`](./blog/2023_04_29_18_53_80_fix-urls-in-obsidian.md)
 - [`2023-04-29 18:27:42 +0000 - Generate Index of markdown files with ruby`](./blog/2023_04_29_18_27_86_generate-index-of-markdown-files-with-ruby.md)
 - [`2023-04-29 16:30:13 +0000 - GitHub Action and Two Repos`](./blog/2023_04_29_16_30_86_github-action-and-two-repos.md)
 - [`2023-04-29 10:39:00 +0000 - Obsidian file creation renamed with templater`](./blog/2023_04_29_10_04_18_obsidian-file-creation-renamed-with-templater.md)

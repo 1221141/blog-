@@ -1,7 +1,7 @@
 ---
 Title: Using Obsidian to blog
 Created: 2023-04-28 22:32:41
-Updated: 2023-04-29 18:46:39
+Updated: 2023-04-29 18:55:49
 ---
 
 # Using Obsidian to blog
@@ -18,13 +18,14 @@ In obsidian one can use the <https://github.com/denolehov/obsidian-git> plugin t
 For windows it is required to use the https and the windows credential-manager. I had a previous user signed. 
 
 Steps to fix it:
-	- <https://stackoverflow.com/a/47466980> check the windows part
-	- clone the repo in https
-	- when try to push choose manager and tick to always use that.
-	- profit
+- <https://stackoverflow.com/a/47466980> check the windows part
+- clone the repo in https
+- when try to push choose manager and tick to always use that.
+- profit
 
 #### Linux
 I just followed this guide: <https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github>
+and this <https://publish.obsidian.md/git-doc/04+Authentication#Linux>
 But basically: https, and the GitHub token.
 
 
@@ -64,6 +65,7 @@ When creating a new file in the blog folder a prompt asks for the title of the b
 
 ![Pasted image 20230429105252](assets/Pasted%20image%2020230429105252.png)
 
+![](assets/Pasted%20image%2020230429185545.png)
 ### Linter plugin
 The linter plugin makes it easy to update the updated and title metadata in the frontmatter, this is also similar to what I have in my emacs `blog.el` mode.
 
