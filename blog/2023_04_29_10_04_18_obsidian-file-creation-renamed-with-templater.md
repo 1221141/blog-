@@ -33,6 +33,6 @@ tR += "# " + title;
 When creating a new file in the blog folder a prompt asks for the title of the blog post, this is very similar to my emacs/vim approach.
 
 ### Linter plugin
-The linter plugin makes it easy to update the updated and title metadata in the frontmatter, this is also similar to what i have in my emacs `blog.el` mode.
+The linter plugin makes it easy to update the updated and title metadata in the frontmatter, this is also similar to what I have in my emacs `blog.el` mode.
 
 

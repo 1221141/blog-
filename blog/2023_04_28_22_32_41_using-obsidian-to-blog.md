@@ -1,7 +1,7 @@
 ---
 Title: Using Obsidian to blog
 Created: 2023-04-28 22:32:41
-Updated: 2023-04-29 16:55:29
+Updated: 2023-04-29 18:46:39
 ---
 
 # Using Obsidian to blog
@@ -25,7 +25,7 @@ Steps to fix it:
 
 #### Linux
 I just followed this guide: <https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github>
-But basically: https, and the github token.
+But basically: https, and the GitHub token.
 
 
 ## Frontmatter
@@ -62,11 +62,11 @@ When creating a new file in the blog folder a prompt asks for the title of the b
 
 #### Templater settings 
 
-![](Pasted%20image%2020230429105252.png)
+![Pasted image 20230429105252](assets/Pasted%20image%2020230429105252.png)
 
 ### Linter plugin
-The linter plugin makes it easy to update the updated and title metadata in the frontmatter, this is also similar to what i have in my emacs `blog.el` mode.
+The linter plugin makes it easy to update the updated and title metadata in the frontmatter, this is also similar to what I have in my emacs `blog.el` mode.
 
 
-![](Pasted%20image%2020230429105352.png)
-![](Pasted%20image%2020230429105410.png)
+![Pasted image 20230429105352](assets/Pasted%20image%2020230429105352.png)
+![Pasted image 20230429105410](assets/Pasted%20image%2020230429105410.png)

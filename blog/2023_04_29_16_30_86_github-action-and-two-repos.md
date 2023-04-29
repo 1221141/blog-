@@ -1,22 +1,23 @@
 ---
-Title: Github Action and Two Repos
+Title: GitHub Action and Two Repos
 Created: 2023-04-29 16:30:13
-Updated: 2023-04-29 17:13:41
+Updated: 2023-04-29 18:46:49
 ---
 
-# Github Action and Two Repos
+# GitHub Action and Two Repos
 
-I managed to successfully create a way to have my main blog folder in a private repo and publish only the public folder in another public repo using github actions.
+I managed to successfully create a way to have my main blog folder in a private repo and publish only the public folder in another public repo using GitHub actions.
 
 
 ## Setup
 
 #### PAT
 
-PAT a.k.a Personal Access Token, create one in your github settings:
-![[Pasted image 20230429171338.png]]
+PAT a.k.a Personal Access Token, create one in your GitHub settings:
+![Pasted image 20230429171338](assets/Pasted%20image%2020230429171338.png)
+
 and set in the repo actions:
-![[Pasted image 20230429171258.png]]
+![Pasted image 20230429171258](assets/Pasted%20image%2020230429171258.png)
 
 
 #### Private Repo

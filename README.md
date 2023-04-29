@@ -1,7 +1,7 @@
 # Index
 
 - [`2023-04-29 18:27:42 +0000 - Generate Index of markdown files with ruby`](./blog/2023_04_29_18_27_86_generate-index-of-markdown-files-with-ruby.md)
-- [`2023-04-29 16:30:13 +0000 - Github Action and Two Repos`](./blog/2023_04_29_16_30_86_github-action-and-two-repos.md)
+- [`2023-04-29 16:30:13 +0000 - GitHub Action and Two Repos`](./blog/2023_04_29_16_30_86_github-action-and-two-repos.md)
 - [`2023-04-29 10:39:00 +0000 - Obsidian file creation renamed with templater`](./blog/2023_04_29_10_04_18_obsidian-file-creation-renamed-with-templater.md)
 - [`2023-04-29 09:50:00 +0000 - Utteranc.es might be interesting for the blog`](./blog/2023_04_29_09_04_80_utteranc.es_might_be_interesting_for_the_blog.md)
 - [`2023-04-28 22:32:41 +0000 - Using Obsidian to blog`](./blog/2023_04_28_22_32_41_using-obsidian-to-blog.md)
