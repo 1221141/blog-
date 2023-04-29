@@ -24,6 +24,5 @@ jobs:
         with:
           repository: 1221141/blog
           token: ${{ secrets.PAT }} # `GH_PAT` is a secret that contains your PAT
-          path: my-tools
       - name: show dir
         run: ls
