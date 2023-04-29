@@ -34,12 +34,15 @@ jobs:
 
       - name: remove-all-else
         run: cp -r origin/blog main/
-        
-      - name: Commit blog
+      - uses: ruby/setup-ruby@v1
+      - name: Generate index
         run: |
           cd main
           gem install front_matter_parser
-          ruby generate_index.rb 
+          ruby generate_index.rb
+      - name: Commit blog
+        run: |
+          cd main
           git config --global user.name '1221141'
           git config --global user.email 'redacted@nope.np'
           git add .
