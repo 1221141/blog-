@@ -25,9 +25,10 @@ jobs:
           repository: 1221141/blog
           token: ${{ secrets.PAT }} # `GH_PAT` is a secret that contains your PAT
       - name: remove-all-else
-        run: rm -rf .github && rm -rf .obsidian
+        run: rm -rf .github && rm -rf .obsidian && rm -rf .git
       - name: Commit blog
         run: |
+          git init
           git config --global user.name '1221141'
           git config --global user.email 'redacted@nope.np'
           git add blog
