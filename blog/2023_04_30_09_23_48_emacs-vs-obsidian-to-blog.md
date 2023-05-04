@@ -1,7 +1,7 @@
 ---
 Title: Emacs vs Obsidian to blog
 Created: 2023-04-30 09:23:48
-Updated: 2023-05-01 11:42:52
+Updated: 2023-05-04 07:53:31
 ---
 
 # Emacs vs Obsidian to blog
