@@ -1,5 +1,6 @@
 # Index
 
+- [`2023-04-29 11:22:17 +0000 - `](./blog/2023_05_05_22_29_66_emacs-evil---using-hydra-as-leader.md)
 - [`2023-04-29 11:22:17 +0000 - Diving into Jekyll`](./blog/2023_05_01_11_42_18_diving-into-jekyll.md)
 - [`2023-04-30 09:23:48 +0000 - Emacs vs Obsidian to blog`](./blog/2023_04_30_09_23_48_emacs-vs-obsidian-to-blog.md)
 - [`2023-04-29 18:57:57 +0000 - Testing from Chromebook`](./blog/2023_04_29_18_57_57_testing-from-chromebook.md)
