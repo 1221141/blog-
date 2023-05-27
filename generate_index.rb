@@ -13,7 +13,7 @@ Dir.entries(dir_path).each do |file_name|
 
   file_contents = File.read("#{dir_path}/#{file_name}")
   parsed = FrontMatterParser::Parser.new(:md, loader: unsafe_loader).call(file_contents)
-  entries.push(Entry.new(parsed.front_matter['Title'], parsed.front_matter['Created'], "#{dir_path}/#{file_name}"))
+  entries.push(Entry.new(parsed.front_matter['Title'] || parsed.front_matter['title'], parsed.front_matter['Created'] || parsed.front_matter['created'], "#{dir_path}/#{file_name}"))
 end
 
 sorted_entries = entries.sort_by { |entry| entry.filename }.reverse
