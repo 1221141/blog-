@@ -13,16 +13,22 @@ Dir.entries(dir_path).each do |file_name|
 
   file_contents = File.read("#{dir_path}/#{file_name}")
   parsed = FrontMatterParser::Parser.new(:md, loader: unsafe_loader).call(file_contents)
-  entries.push(Entry.new(parsed.front_matter['Title'] || parsed.front_matter['title'], parsed.front_matter['Created'] || parsed.front_matter['created'], "#{dir_path}/#{file_name}"))
+
+  title = parsed.front_matter['Title'] || parsed.front_matter['title']
+  created = parsed.front_matter['Created'] || parsed.front_matter['created']
+  filename = "#{dir_path}/#{file_name}"
+
+  if title.to_s.empty? || created.to_s.empty?
+    entries.push(Entry.new(title, created, filename))
+  end
 end
 
 sorted_entries = entries.sort_by { |entry| entry.filename }.reverse
-
 
 File.open("README.md", "w") do |file|
   file.write("# Index\n\n")
 
   sorted_entries.each do |entry|
-  file.write"- [`#{entry.created} - #{entry.title}`](#{entry.filename})\n"
+    file.write("- [`#{entry.created} - #{entry.title}`](#{entry.filename})\n")
   end
 end
