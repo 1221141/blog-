@@ -1,6 +1,6 @@
 ---
 created: 20230526204603163
-modified: 20230527075618505
+modified: 20230527200409132
 title: NextJS Static Generator Site
 ---
 

@@ -1,6 +1,6 @@
 ---
 created: 20230526204603166
-modified: 20230527075618506
+modified: 20230527200409132
 title: Obsidian file creation renamed with templater
 ---
 

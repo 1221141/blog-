@@ -1,6 +1,6 @@
 ---
 created: 20230526210445121
-modified: 20230527075618500
+modified: 20230527200409131
 title: Idea to export tiddlywiki markdown
 ---
 

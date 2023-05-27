@@ -1,6 +1,6 @@
 ---
 created: 20230526204603164
-modified: 20230527075618512
+modified: 20230527200409133
 title: Using Obsidian to blog
 ---
 

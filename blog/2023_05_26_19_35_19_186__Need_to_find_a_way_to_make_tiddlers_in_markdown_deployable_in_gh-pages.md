@@ -1,6 +1,6 @@
 ---
 created: 20230526193519186
-modified: 20230527075618504
+modified: 20230527200409131
 title: Need to find a way to make tiddlers in markdown deployable in gh-pages
 ---
 

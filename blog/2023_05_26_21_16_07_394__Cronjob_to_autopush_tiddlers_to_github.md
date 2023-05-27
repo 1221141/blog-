@@ -1,6 +1,6 @@
 ---
 created: 20230526211607394
-modified: 20230527075618487
+modified: 20230527200409130
 title: Cronjob to autopush tiddlers to github
 ---
 

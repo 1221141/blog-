@@ -1,6 +1,6 @@
 ---
 created: 20230526194928888
-modified: 20230527075618512
+modified: 20230527200409132
 title: Tiddlywiki own language
 ---
 

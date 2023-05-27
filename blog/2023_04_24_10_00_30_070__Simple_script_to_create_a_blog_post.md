@@ -1,6 +1,6 @@
 ---
 created: 20230424100030070
-modified: 20230527081044426
+modified: 20230527200409132
 title: Simple script to create a blog post
 ---
 
