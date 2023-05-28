@@ -1,15 +1,7 @@
 ---
-created: 20230526204603164
-modified: 20230527200409133
+created: 20230428223241000
+modified: 20230527204530475
 title: Using Obsidian to blog
----
-
-# Using Obsidian to blog
-
----
-title: Using Obsidian to blog
-Created: 2023-04-28 22:32:41
-Updated: 2023-04-29 11:37:12
 ---
 
 # Using Obsidian to blog
